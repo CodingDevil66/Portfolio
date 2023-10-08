@@ -14,6 +14,52 @@
 
 <body>
   
+  
+   <!-- <nav class="navbar" id="nav">
+    <div>
+    <div><p style="color: #c3b09d;">Kaushik</p></div>
+    <div class="name">
+    <ul>
+      
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about-section">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul></div>
+    </div>
+   
+    
+  </nav>
+   -->
+
+   <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top" id="navbarfont">
+		<div class="container-fluid">
+			<!-- <a class="navbar-brand" href="index.html"><img src="img/harmanark1.png"></a> -->
+			
+			<a href="/" style="text-decoration:none"><div id="logostyle">Kaushik Aryan</div></a>
+			
+			
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#about">About</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="#skills">Skills</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="#projects">Projects</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+  
+  
 
 
 
@@ -25,40 +71,35 @@
     
 
       <h1 class="animated-text">Hello and Welcome! </h1>
-      <h2 class="animated-text">I am<span style="color: #c3b09d;"> Kaushik Aryan</span> and I invite you to
+      <h2 class="animated-text">I am <span style="color: #c3b09d;text-decoration: underline;">Kaushik Aryan</span> and I invite you to
          <br>explore my digital portfolio.</h2>
       <a href="#about-section" class="btn"
         style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Know me</a>
-      <!-- Social media icons 
-       <div class="social-icons">
-        <a href="https://www.linkedin.com/in/kaushikaryan" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
-        <a href="https://github.com/kaushikaryan" target="_blank"><i class="fab fa-github fa-2x"></i></a>
-        <a href="https://twitter.com/kaushikaryan" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
-        <a href="https://www.instagram.com/kaushikaryan" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
-      </div> -->
+      
 
 
     </div>
 
   </section>
+  <!--<nav class="navbar" id="nav">
+    <ul>
+      <div class="name">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about-section">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </div></ul>
+   
+    
+  </nav>-->
 
   <section class="about" id="about-section">
-    <!--<nav class="navbar" id="nav">
-      <ul>
-        <div class="name">
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#about-section">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </div></ul>
-     
-      
-    </nav>-->
-    <h1 style="text-align: center;">About</h1>
-
-
-
-    <div class="container">
+    
+    
+    
+    
+    <div class="containerabt">
+      <h1 style="text-align: center;">About</h1>
       
 
       <section id="introduction">
@@ -101,8 +142,9 @@
 
     </div>
   </section>
-  <!--<section class="portfolio" id="port">
-    <h1>PORTFOLIO</h1>
+  <section class="portfolio" id="port">
+    <div class="containerport">
+      <h1>PORTFOLIO</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus explicabo nam esse nihil asperiores reiciendis
       tempore veritatis ipsa, quos excepturi omnis ducimus cum beatae voluptatibus totam perferendis voluptas nemo
       expedita voluptate animi! Nisi repudiandae similique, consectetur maxime dolor quidem! Eos, aliquam vel? Totam
@@ -137,12 +179,40 @@
       animi. Veritatis distinctio nam laborum, suscipit ex earum optio, corrupti adipisci perferendis temporibus nisi
       aliquid pariatur facere corporis qui voluptatibus sunt dignissimos quisquam, quam dolorem mollitia excepturi
       voluptatum recusandae. Iste, eum illo consequatur quisquam similique aliquid tenetur adipisci provident?
-    </p>
-  </section>-->
+    </p></div>
+  </section>
   <section class="contact">
-    <div class="container">
-      <h1>Contact Me</h1>
+    
+    <div class="containercon">
+      <h1 style="text-align: center;">Contact Me</h1>
       
+      <div class="row">
+        
+        <div class="column1">
+          <form action="/action_page.php">
+            
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+            
+            <input type="text" id="email" name="email" placeholder="Your email" required>
+            
+            
+            <textarea id="subject" name="subject" placeholder="Write your Message" style="height:170px" required></textarea>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+        <div class="column2">
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/kaushikaryan" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
+            <a href="https://github.com/kaushikaryan" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            <a href="https://twitter.com/kaushikaryan" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="https://www.instagram.com/kaushikaryan" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+          </div> 
+          
+        </div>
+        
+      </div>
+        
+       
       
     </div>
     
