@@ -393,3 +393,18 @@ input[type=submit]:hover {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-decoration: none; /* Remove underline from links */
 }
+
+#Bold{
+  text-decoration: underline;
+  font-weight: 900;
+}
+
+#secondarytitle{
+  font-size: 33px;
+  color:#b6a479 ;
+
+}
+
+#second{
+  color: #e8dfce;
+}
